@@ -1,0 +1,90 @@
+{
+	Tools = ordered() {
+		AnamorphicFlare = MacroOperator {
+			Inputs = ordered() {
+				MainInput1 = InstanceInput {
+					SourceOp = "FlareMerge",
+					Source = "Background",
+				},
+				FlareCenter = InstanceInput {
+					SourceOp = "Transform1",
+					Source = "Center",
+					Name = "Flare Center",
+					Default = { 0.5, 0.5 },
+				},
+				Intensity = InstanceInput {
+					SourceOp = "FlareMerge",
+					Source = "Blend",
+					Name = "Intensity",
+					Default = 0.9,
+					MinScale = 0,
+					MaxScale = 2,
+				},
+				StreakLength = InstanceInput {
+					SourceOp = "HStreak",
+					Source = "XBlurSize",
+					Name = "Streak Length",
+					Default = 220,
+					MinScale = 0,
+					MaxScale = 800,
+				},
+				FlareColor = InstanceInput {
+					SourceOp = "FlareTint",
+					Source = "ColorRanges",
+					Name = "Flare Tint",
+				},
+			},
+			Outputs = {
+				MainOutput1 = InstanceOutput {
+					SourceOp = "FlareMerge",
+					Source = "Output",
+				},
+			},
+			ViewInfo = GroupInfo { Pos = { 0, 0 } },
+			Tools = ordered() {
+				FlareCore = Ellipse {
+					Inputs = {
+						Width = Input { Value = 0.04 },
+						Height = Input { Value = 0.04 },
+						SoftEdge = Input { Value = 0.02 },
+						Red = Input { Value = 0.6 },
+						Green = Input { Value = 0.95 },
+						Blue = Input { Value = 1.0 },
+					},
+					ViewInfo = OperatorInfo { Pos = { -220, 16 } },
+				},
+				HStreak = Blur {
+					Inputs = {
+						Input = Input { SourceOp = "FlareCore", Source = "Output" },
+						XBlurSize = Input { Value = 220 },
+						YBlurSize = Input { Value = 4 },
+						LockXY = Input { Value = 0 },
+					},
+					ViewInfo = OperatorInfo { Pos = { -110, 16 } },
+				},
+				Transform1 = Transform {
+					Inputs = {
+						Input = Input { SourceOp = "HStreak", Source = "Output" },
+						Center = Input { Value = { 0.5, 0.5 } },
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 16 } },
+				},
+				FlareTint = ColorCurves {
+					Inputs = {
+						Input = Input { SourceOp = "Transform1", Source = "Output" },
+					},
+					ViewInfo = OperatorInfo { Pos = { 110, 16 } },
+				},
+				FlareMerge = Merge {
+					Inputs = {
+						Background = Input { },
+						Foreground = Input { SourceOp = "FlareTint", Source = "Output" },
+						ApplyMode = Input { Value = FuID { "Screen" } },
+						Blend = Input { Value = 0.9 },
+					},
+					ViewInfo = OperatorInfo { Pos = { 220, 16 } },
+				},
+			},
+		}
+	}
+}

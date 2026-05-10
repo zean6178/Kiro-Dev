@@ -1,0 +1,84 @@
+{
+	Tools = ordered() {
+		CrackedSky = MacroOperator {
+			Inputs = ordered() {
+				MainInput1 = InstanceInput {
+					SourceOp = "SkyCrackMerge",
+					Source = "Background",
+				},
+				CrackProgress = InstanceInput {
+					SourceOp = "CrackShader",
+					Source = "progress",
+					Name = "Crack Progress",
+					Default = 0,
+					MinScale = 0,
+					MaxScale = 1,
+				},
+				CrackDensity = InstanceInput {
+					SourceOp = "CrackShader",
+					Source = "density",
+					Name = "Crack Density",
+					Default = 12,
+					MinScale = 4,
+					MaxScale = 48,
+				},
+				CrackColor = InstanceInput {
+					SourceOp = "CrackShader",
+					Source = "tint",
+					Name = "Crack Color",
+					Default = { 0.8, 0.95, 1.0, 1.0 },
+				},
+				EdgeBloom = InstanceInput {
+					SourceOp = "EdgeGlow",
+					Source = "Blend",
+					Name = "Edge Bloom",
+					Default = 0.6,
+					MinScale = 0,
+					MaxScale = 1,
+				},
+			},
+			Outputs = {
+				MainOutput1 = InstanceOutput {
+					SourceOp = "SkyCrackMerge",
+					Source = "Output",
+				},
+			},
+			ViewInfo = GroupInfo { Pos = { 0, 0 } },
+			Tools = ordered() {
+				CrackShader = Custom {
+					NameSet = true,
+					Inputs = {
+						NumberIn1 = Input { Value = 0, Name = "progress" },
+						NumberIn2 = Input { Value = 12, Name = "density" },
+						PointIn1 = Input { Value = { 0.5, 0.5 } },
+						Red = Input { Value = 0.8, Name = "tint.r" },
+						Green = Input { Value = 0.95, Name = "tint.g" },
+						Blue = Input { Value = 1.0, Name = "tint.b" },
+						RedExpression = Input { Value = "abs(sin(x*n2+n1*6.28)*cos(y*n2-n1*6.28)) > (1-n1) ? r : 0" },
+						GreenExpression = Input { Value = "abs(sin(x*n2+n1*6.28)*cos(y*n2-n1*6.28)) > (1-n1) ? g : 0" },
+						BlueExpression = Input { Value = "abs(sin(x*n2+n1*6.28)*cos(y*n2-n1*6.28)) > (1-n1) ? b : 0" },
+						AlphaExpression = Input { Value = "abs(sin(x*n2+n1*6.28)*cos(y*n2-n1*6.28)) > (1-n1) ? 1 : 0" },
+					},
+					ViewInfo = OperatorInfo { Pos = { -110, 16 } },
+				},
+				EdgeGlow = Glow {
+					Inputs = {
+						Blend = Input { Value = 0.6 },
+						GlowSize = Input { Value = 18 },
+						Input = Input { SourceOp = "CrackShader", Source = "Output" },
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 16 } },
+				},
+				SkyCrackMerge = Merge {
+					Inputs = {
+						Background = Input { },
+						Foreground = Input { SourceOp = "EdgeGlow", Source = "Output" },
+						ApplyMode = Input { Value = FuID { "Screen" } },
+						Blend = Input { Value = 1.0 },
+					},
+					ViewInfo = OperatorInfo { Pos = { 110, 16 } },
+				},
+			},
+		}
+	}
+}

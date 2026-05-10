@@ -1,0 +1,102 @@
+{
+	Tools = ordered() {
+		HologramGlitch = MacroOperator {
+			Inputs = ordered() {
+				MainInput1 = InstanceInput {
+					SourceOp = "GlitchMerge",
+					Source = "Background",
+				},
+				GlitchRate = InstanceInput {
+					SourceOp = "GlitchGate",
+					Source = "NumberIn1",
+					Name = "Glitch Rate",
+					Default = 0.15,
+					MinScale = 0,
+					MaxScale = 1,
+				},
+				RGBSplitAmount = InstanceInput {
+					SourceOp = "RedShift",
+					Source = "XOffset",
+					Name = "RGB Split Amount",
+					Default = 4,
+					MinScale = 0,
+					MaxScale = 40,
+				},
+				ScanlineStrength = InstanceInput {
+					SourceOp = "Scanlines",
+					Source = "Blend",
+					Name = "Scanlines",
+					Default = 0.35,
+					MinScale = 0,
+					MaxScale = 1,
+				},
+				CyanTint = InstanceInput {
+					SourceOp = "HoloTint",
+					Source = "MasterRGBGain",
+					Name = "Cyan Tint",
+					Default = 1.0,
+				},
+			},
+			Outputs = {
+				MainOutput1 = InstanceOutput {
+					SourceOp = "GlitchMerge",
+					Source = "Output",
+				},
+			},
+			ViewInfo = GroupInfo { Pos = { 0, 0 } },
+			Tools = ordered() {
+				GlitchGate = Custom {
+					Inputs = {
+						NumberIn1 = Input { Value = 0.15, Name = "rate" },
+						NumberExpression1 = Input { Value = "rand() < n1 ? 1 : 0" },
+					},
+					ViewInfo = OperatorInfo { Pos = { -330, 16 } },
+				},
+				RedShift = Transform {
+					Inputs = {
+						Input = Input { },
+						XOffset = Input { Value = 0.005 },
+					},
+					ViewInfo = OperatorInfo { Pos = { -220, 16 } },
+				},
+				ChannelSplit = ChannelBoolean {
+					Inputs = {
+						Background = Input { },
+						Foreground = Input { SourceOp = "RedShift", Source = "Output" },
+						ToRed = Input { Value = 0 },
+						ToGreen = Input { Value = 1 },
+						ToBlue = Input { Value = 1 },
+					},
+					ViewInfo = OperatorInfo { Pos = { -110, 16 } },
+				},
+				Scanlines = FastNoise {
+					Inputs = {
+						Width = Input { Value = 1920 },
+						Height = Input { Value = 1080 },
+						XScale = Input { Value = 0.002 },
+						YScale = Input { Value = 40 },
+						Blend = Input { Value = 0.35 },
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 16 } },
+				},
+				HoloTint = ColorCorrector {
+					Inputs = {
+						Input = Input { SourceOp = "ChannelSplit", Source = "Output" },
+						MasterRGBGainRed = Input { Value = 0.2 },
+						MasterRGBGainGreen = Input { Value = 1.0 },
+						MasterRGBGainBlue = Input { Value = 1.2 },
+					},
+					ViewInfo = OperatorInfo { Pos = { 110, 16 } },
+				},
+				GlitchMerge = Merge {
+					Inputs = {
+						Background = Input { },
+						Foreground = Input { SourceOp = "HoloTint", Source = "Output" },
+						Blend = Input { Value = 1.0 },
+					},
+					ViewInfo = OperatorInfo { Pos = { 220, 16 } },
+				},
+			},
+		}
+	}
+}
