@@ -1,152 +1,210 @@
-# Suno Music Prompts
+# KARTUN CERDAS — Suno v4 Music Prompt Pack
 
-> Three-act score prompts for each short, engineered for Suno v4 (also works on Udio). Each score is structured in cues that match the timecodes in the voiceover and shot list.
+> Ready-to-paste prompts for Suno v4 (and v3.5) covering the intro sting,
+> a full 60-second channel anthem with lyrics, per-episode music beds, and
+> transition stingers.
 >
-> **Suno tip:** Generate each cue separately (30–60s each), then stitch in DaVinci Resolve. Use the same "style" prompt across cues and only change the "mood / action" phrase to keep sonic identity consistent.
+> Brand sound identity: ukulele + glockenspiel + kalimba + marimba + soft
+> hand claps, 90–95 BPM, C major, bright & curious, -14 LUFS.
 
 ---
 
-## PROJECT 1 — "Mochi and the Moon Jar" — SCORE
+## 1. 5-Second Intro Sting (reusable before every episode)
 
-**Overall identity:** cinematic orchestral, music-box textures, childlike wonder, Disney-Pixar DNA with a hint of Joe Hisaishi (Ghibli).
-**Key:** C major → modulates to A minor (conflict) → returns to C major (resolution).
-**BPM arc:** 68 → 72 → 96 → 110 → 84.
-**Instrumentation palette:** celesta, music box, pizzicato strings, felt piano, children's choir "oohs," harp glissandi, soft French horn, light percussion (sleigh bells, triangle), light taiko for the climb.
-
-### Cue 1 — "Moonlight Whisper" (0:00–0:22, hook + discovery)
+**Style prompt**
 ```
-[Style] cinematic orchestral, Pixar-inspired, music box, celesta, felt piano, soft
-pizzicato strings, 68 BPM, C major, magical wonder, gentle and curious
-[Structure] intro: solo music box melody 8 bars, then celesta joins, then warm
-strings swell under, no drums, no vocals
-[Mood] twinkling, innocent, a storybook opening on a winter night
-[Mix] wide stereo reverb, soft tape hiss, cinematic
+cheerful children's cartoon intro sting, ukulele, glockenspiel, kalimba, light
+shaker, marimba pinch, 95 BPM, C major, bright and bouncy, Cocomelon-meets-
+Pixar-opening vibe
 ```
 
-### Cue 2 — "Tiny Giggles" (0:22–0:45, bond)
+**Structure prompt**
 ```
-[Style] playful orchestral, Pixar, pizzicato strings bouncing, glockenspiel, harp
-glissandi, light sleigh bells, 96 BPM, C major, joyful and cute
-[Structure] A-B-A form, main theme on pizzicato strings, B section adds children's
-choir "ooh" and flute counter-melody, light triangle hits on the 4
-[Mood] two friends dancing in a dandelion field, pure joy
-[Mix] bright, close-mic strings, airy top end
+5-second sting: 2 bars rising ukulele + glockenspiel motif ending on a big
+resolving chord, final flourish whistle + tiny robot "beep-boop"
 ```
 
-### Cue 3 — "The Sky Breaks" (0:45–1:00, conflict)
-```
-[Style] cinematic orchestral, Joe Hisaishi inspired, minor-key shift, low cellos,
-tremolo violins, dissonant piano clusters, 72 BPM, A minor, emotional and fragile
-[Structure] sudden key change from major to minor, music box melody returns but
-broken and slowing, glass-shatter percussion one-shot at 0:50
-[Mood] heartbreak in a child's story, beautiful sadness
-[Mix] reverb-drenched, tape wobble, wide and cold
-```
-
-### Cue 4 — "The Climb" (1:00–1:18, rising action)
-```
-[Style] triumphant cinematic orchestral, Pixar-meets-Ghibli, French horn melody,
-rising strings, light taiko drums, harp arpeggios, 110 BPM, C major, hopeful and
-determined
-[Structure] 8-bar build: horns enter alone, strings layer at bar 3, taiko joins at
-bar 5, full orchestra hit at bar 8 with choir swell
-[Mood] tiny hero climbing toward an impossible sky
-[Mix] cinematic LCR, big stereo image, punchy low-mid
-```
-
-### Cue 5 — "Goodnight, Little Moon" (1:18–1:30, resolution)
-```
-[Style] tender cinematic orchestral, solo piano, warm strings, celesta return,
-children's choir pad, 84 BPM, C major, bittersweet and peaceful
-[Structure] main music-box theme returns fully resolved, single cello sustain tail,
-final celesta note rings out on fade
-[Mood] letting go, a full-circle lullaby
-[Mix] intimate, close piano, long natural reverb tail
-```
+**Tags:** `kids cartoon, intro sting, ukulele, glockenspiel, C major, bright, short`
 
 ---
 
-## PROJECT 2 — "Signal from Kepler-9" — SCORE
+## 2. FULL CHANNEL ANTHEM — "Belajar Jadi Seru" (60-second theme song)
 
-**Overall identity:** dark ambient synth, Vangelis × Hans Zimmer × Jóhann Jóhannsson. Analog warmth, mechanical dread, cosmic awe.
-**Key:** D minor, occasional drift to D Phrygian.
-**BPM arc:** 52 → 60 → 72 → 96 → 40 (final dilation).
-**Instrumentation palette:** Moog bass drones, CS-80 pads (Vangelis signature), granular textures, detuned piano, anamorphic reverse swells, industrial metal hits, female wordless vocal (haunting), sub-bass sine pulses.
-
-### Cue 1 — "Transmission" (0:00–0:10, cold open)
+### Style prompt
 ```
-[Style] dark ambient sci-fi, Blade Runner 2049 inspired, CS-80 pad drone, analog
-tape hiss, distant sub-bass pulse, 52 BPM, D minor, ominous and lonely
-[Structure] pure pad drone 8 seconds, single sub-bass impact at 0:04, faint radio
-static layered underneath, no drums
-[Mood] deep space silence, something is wrong
-[Mix] ultra-wide, heavy low-end, cavernous reverb
+upbeat children's edutainment theme song, ukulele strumming, glockenspiel
+melody, kalimba counter-line, marimba bass, hand claps, whistle hook, child
+chorus backing vocals, happy trumpet stabs, 96 BPM, C major, Cocomelon meets
+Disney Junior, joyful and curious, clean kids-TV mix
 ```
 
-### Cue 2 — "Orpheus-7" (0:10–0:25, station establish)
+### Lyrics (Bahasa Indonesia) — paste in Suno "Lyrics" box
 ```
-[Style] Jóhann Jóhannsson inspired, detuned piano loop, metallic industrial
-percussion (distant), low brass drone, 60 BPM, D minor, cold and mechanical
-[Structure] 4-note piano motif repeating, grows in layers, metallic hit every 8
-bars, wordless female vocal enters in final 4 seconds
-[Mood] walking through a tomb that used to be a home
-[Mix] dry close piano against huge reverb tail on brass, mono-compatible
+[Verse 1]
+Halo, halo, halo teman!
+Kenalin aku Robi
+Aku suka pertanyaan
+Kenapa dan bagaimana, ayo kita cari tahu!
+
+[Pre-Chorus]
+Satu, dua, tiga!
+
+[Chorus]
+Kartun Cerdas, belajar jadi seru!
+Dunia penuh rahasia, ayo ikut aku!
+Kartun Cerdas, sayapnya ilmu!
+Tiap hari pintar baru, yeah!
+
+[Verse 2]
+Langit biru, pelangi, mengapa?
+Gigi, bintang, pohon, semua ada ceritanya
+Kecilkan diri, terbang tinggi
+Sama-sama kita jelajahi!
+
+[Chorus]
+Kartun Cerdas, belajar jadi seru!
+Dunia penuh rahasia, ayo ikut aku!
+Kartun Cerdas, sayapnya ilmu!
+Tiap hari pintar baru, yeah!
+
+[Outro]
+(whistle hook)
+Belajar... jadi... SERU!
+(beep-boop, ding!)
 ```
 
-### Cue 3 — "The Signal" (0:25–0:45, hologram reveal)
+### Prompt block to generate
 ```
-[Style] Vangelis inspired, CS-80 lead melody, warm analog pad, arpeggiated digital
-sequence underneath, 72 BPM, D minor with Phrygian flavor, tension rising
-[Structure] arpeggiator 16th notes sub, CS-80 lead enters at bar 4 with mournful
-melody, brass swell lift at 0:40
-[Mood] awe tinged with horror, recognition dawning
-[Mix] analog saturation, warm tape, wide stereo
-```
-
-### Cue 4 — "Unraveling" (0:45–1:10, paranoia montage)
-```
-[Style] Hans Zimmer Dunkirk style, granular glitch textures, reverse piano stabs,
-ticking clock sub-pulse, detuned string bed, 96 BPM, D minor, accelerating anxiety
-[Structure] rising Shepard tone under everything, reverse swells every 2 bars,
-industrial metal hit on every downbeat, clock ticking subdivides from 8th to 16th
-to 32nd notes
-[Mood] losing grip, time collapsing inward
-[Mix] heavy sidechain pumping, compressed and airless
+Title: Belajar Jadi Seru (Kartun Cerdas Theme)
+Style: [paste the style prompt above]
+Lyrics: [paste the lyrics above]
+Duration: 60 seconds
+Mix: bright, wide stereo, no sub-bass, soft compression, -14 LUFS
 ```
 
-### Cue 5 — "The Other" (1:10–1:35, cryo-pod reveal)
+### Instrumental variant (for under-voiceover use)
 ```
-[Style] dark ambient, wordless female vocal solo, sub-bass drone, sparse piano, 60
-BPM, D minor, awe-horror and recognition
-[Structure] female vocal enters unaccompanied, bass drone builds underneath across
-20 seconds, single piano note on the reveal at 1:30, long silence tail
-[Mood] meeting yourself, grief without tears
-[Mix] intimate vocal, massive reverb on bass, dry on piano
-```
-
-### Cue 6 — "We Are Legion" (1:35–2:00, cosmic reveal + end)
-```
-[Style] Vangelis and Jóhannsson hybrid, massive CS-80 chord progression, full
-wordless choir, sub drone, slow and vast, 40 BPM, D minor resolving to suspended
-fourth (unresolved), cosmic and inevitable
-[Structure] single chord held 8 seconds, choir swell enters, second chord shift at
-1:48, final unresolved chord holds through credits, sub-bass fade to silence over
-15 seconds
-[Mood] the scale of the truth, too big to feel
-[Mix] maximum width, cinematic LFE rumble, long natural fade
+Same track as "Belajar Jadi Seru" but instrumental only, no vocals, keep the
+whistle hook and child chorus "la la la" harmonies as melodic elements,
+60 seconds, loopable at 4-bar mark
 ```
 
 ---
 
-## Suno Workflow Recipe
+## 3. Per-Episode Music Beds (90s Shorts)
 
-1. Paste the **[Style]** block into Suno's "Style of Music" field.
-2. Paste the **[Structure]** + **[Mood]** into the "Lyrics / Description" field with `[Instrumental]` tag at the top so Suno doesn't add vocals (except cues that specifically call for wordless choir).
-3. Generate 4 variations per cue. Pick the one whose intro hits the emotion fastest (you will often trim the first 2–4 seconds).
-4. Export WAV. In Resolve, crossfade cues with 1.5–3 second overlaps matching the scene transitions.
-5. Duck music -6dB under voiceover lines, automate back up in the silence windows.
+All beds share: 90–95 BPM, C major, ukulele base, glockenspiel, marimba, kalimba,
+soft claps, no vocals, no sub-bass, -16 LUFS, ducking-friendly for VO.
 
-## Master Bus Reference
+### Episode 1 — Kenapa Langit Biru?
+```
+Cheerful kids cartoon bed, sunny morning mood, ukulele strum, glockenspiel bell
+melody, kalimba counter, soft shaker, whistle lead, 92 BPM, C major, 90-second
+structure: 8-bar curious intro, 16-bar playful verse, 16-bar uplifting chorus,
+8-bar sparkly bridge, 8-bar magical ride section, 8-bar discovery swell,
+warm resolving outro, kid-friendly, Cocomelon-Pixar vibe
+```
 
-- Cartoon mix: LUFS -16 integrated, true peak -1.5dBTP. Bright, airy, 12kHz shelf +2dB.
-- Sci-fi mix: LUFS -14 integrated, true peak -1.0dBTP. Heavy sub 40–80Hz, scooped 400Hz, clear dialogue pocket at 2–4kHz.
+### Episode 2 — Kenapa Es Mencair?
+```
+Kids cartoon bed with a "cool to warm" arc, starts with icy chimes and muted
+kalimba, 90 BPM, A minor into C major, warms up with ukulele + glockenspiel in
+the middle, hand claps in chorus, 90 seconds, curious then joyful
+```
+
+### Episode 3 — Kenapa Pelangi Muncul?
+```
+Rainy-then-sunny kids cartoon bed, muted rainy plucks into bright ukulele and
+glockenspiel rainbow motif, bell tree sweeps, whistle lead in chorus, 95 BPM,
+C major, 90-second structure, magical and hopeful
+```
+
+### Episode 4 — Kenapa Kita Harus Tidur?
+```
+Cozy bedtime kids cartoon bed, soft kalimba, gentle music-box glockenspiel,
+dreamy pad, light ukulele arpeggio, 88 BPM, F major, 90 seconds, warm and
+sleepy but ending uplifting so kids don't actually fall asleep
+```
+
+### Episode 5 — Kenapa Gigi Harus Disikat?
+```
+Bouncy kids cartoon bed with a "brushing" rhythm (steady claps + tambourine),
+ukulele, glockenspiel, marimba, 96 BPM, C major, 90 seconds, playful and a
+little cheeky during the sugar-monster section
+```
+
+### Episode 6 — Kenapa Magnet Lengket?
+```
+Curious science kids cartoon bed, plucky staccato ukulele, glockenspiel, tuned
+percussion, light synth "boop" accents suggesting atoms, 94 BPM, C major,
+90 seconds, puzzle-solving energy resolving to triumphant
+```
+
+### Episode 7 — Kenapa Pohon Hijau?
+```
+Nature kids cartoon bed, acoustic fingerpicked ukulele, kalimba, glockenspiel,
+soft pan-flute whistle, light bird whistle accents, 90 BPM, G major, 90 seconds,
+warm forest feel, grows brighter in the chloroplast-factory section
+```
+
+### Episode 8 — Kenapa Ada Siang dan Malam?
+```
+Day-and-night kids cartoon bed, starts sunny ukulele, shifts to twinkly music
+box and soft synth pad for night, returns to warm ukulele for sunrise, 90 BPM,
+C major, 90 seconds, wonder-of-space mood
+```
+
+### Episode 9 — Kenapa Air Laut Asin?
+```
+Seaside kids cartoon bed, ukulele, glockenspiel, marimba, soft ocean shaker,
+steel-drum flavor (subtle, not heavy), whistle hook, 94 BPM, C major, 90 seconds,
+breezy and adventurous
+```
+
+### Episode 10 — Kenapa Kita Bersin?
+```
+Silly kids cartoon bed, bouncy ukulele, pizzicato strings, tuba "oompah"
+accents for the sneeze cannon, glockenspiel, whistle, 98 BPM, C major, 90
+seconds, comedic and energetic with a big "HATSYI!" musical stab at the climax
+```
+
+---
+
+## 4. Transition Stingers (1–2 seconds)
+
+Paste each individually into Suno, generate 3 takes, pick best.
+
+```
+1) "2-second cartoon whoosh-to-ding stinger, playful, bright, kids TV"
+2) "1-second lightbulb-idea ding stinger, glockenspiel and bell, bright"
+3) "2-second shrink zwoop stinger, descending glockenspiel + synth sweep"
+4) "2-second time-warp stinger, ascending kalimba + shimmer, magical"
+5) "1.5-second thumbs-up sparkle stinger, glockenspiel roll + chime"
+6) "2-second recap ba-dum-tss stinger, kids-friendly, rimshot + glockenspiel"
+7) "2-second rocket blast-off stinger, ukulele glissando + whistle up, fun"
+```
+
+---
+
+## 5. End-Card CTA Music (7 seconds, loopable)
+
+```
+7-second cheerful outro loop, ukulele + glockenspiel + hand claps, 95 BPM,
+C major, ends on unresolved chord so it loops cleanly under the "subscribe"
+call-to-action screen, bright and inviting
+```
+
+---
+
+## 6. Suno Tips for Consistency
+
+- Always paste the **exact same style prompt** for each episode bed so the
+  "sonic brand" stays recognizable across episodes.
+- Use Suno's **Cover / Extend** features to keep the channel anthem motif as
+  a 4-note callback inside each episode's chorus (ask Suno: *"include a subtle
+  melodic callback to the Kartun Cerdas theme: C-E-G-A"*).
+- Generate **3 takes per prompt**, pick the best, keep the other two as
+  behind-the-scenes material.
+- Export stems when possible (drums, vocals, harmony, melody) so you can
+  remix for Shorts.
+- Target loudness: **-14 LUFS** for final theme, **-16 LUFS** for beds under VO.
