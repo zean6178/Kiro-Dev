@@ -1,0 +1,17 @@
+# Generated media artifacts
+out/
+*.mp4
+*.wav
+*.mp3
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
