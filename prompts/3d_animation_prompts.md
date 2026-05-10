@@ -1,224 +1,325 @@
-# 3D Animation Prompt Package
+# KARTUN CERDAS — Supplementary 3D Animation Prompts
 
-> Two short-film prompt kits (cute cartoon + sci-fi) engineered for YouTube retention and AI video generation.
-
----
-
-## YouTube Analyst Notes (apply to both)
-
-- **Hook window:** First 3 seconds must show motion, a face, and a question/mystery. Avoid logos or text intros.
-- **Target length:** 60–120s. Sweet spot for Shorts-to-long-form crossover is 75s.
-- **Retention curve:** New visual beat every 4–6 seconds. Hard camera change every 8–12 seconds.
-- **Thumbnail rule:** Character face close-up, eyes visible, one bold emotion, one color-contrast element.
-- **Aspect ratios:** Render 16:9 master, export 9:16 vertical cut for Shorts (reframe on character).
-- **Audio:** Cinematic score, no dialogue in first 3s. Use SFX-heavy mix for algorithm stickiness.
-- **Title formula (cartoon):** "The Tiny [Character] Who [Impossible Goal]"
-- **Title formula (sci-fi):** "The Last [Noun] on [Planet/Ship Name]"
+> Add-on pack that complements `kartun_cerdas_3d_prompts.md` and
+> `opening_video_prompts.md`. Contains:
+>
+> 1. **Shorts 9:16 reframe scene-by-scene** for the pilot episode
+> 2. **Merch / sticker / toy** prompt kit for Robi
+> 3. **Channel art + end-screen** prompts
+> 4. **Recurring characters** design prompts (Nina + villains)
+> 5. **Reusable environment packs** (backyard, lab, space, ocean, forest)
 
 ---
 
-# PROJECT 1 — Cute 3D Cartoon Short
+## 1. SHORTS 9:16 REFRAME — Pilot "Kenapa Langit Biru?" (60s vertical)
 
-**Working Title:** *"Mochi and the Moon Jar"*
-**Runtime:** 90 seconds
-**Style reference:** Pixar × Laika × Studio Aardman, soft subsurface scattering, plush textures, oversized heads, tiny bodies.
+The 90-second long cut is trimmed to a **60-second vertical Short** for the
+Shorts shelf algorithm. Keep all action in the **center 70%** of frame.
 
-## Logline
-A shy marshmallow-shaped bunny named **Mochi** finds a jar that traps a piece of the moon, and must free it before sunrise — or the night sky breaks forever.
-
-## Character Sheet
-
-### Mochi (Hero)
+### Style pre-roll (prefix every shot)
 ```
-3D character design, chubby marshmallow bunny, snow-white fur with peach pink inner ears,
-huge glossy black eyes with twin highlights, tiny pink nose, short rounded limbs,
-wearing an oversized knitted mint-green scarf, stands 3 apples tall, Pixar-quality rig,
-soft rim light, turnaround sheet on neutral cream background, octane render, 8k
+3D cartoon Pixar quality, chibi robot Robi (white-and-cobalt-blue shell, yellow
+antenna, yellow headphones, yellow play-button chest, winking left eye, pink
+cheek blush, waving white-gloved hand), Kartun Cerdas palette #1E5BD8 #FFC83D
+#F7FAFF, 24fps, 9:16 vertical, squash-and-stretch, saturated kid-friendly colors,
+keep all action in center 70% of frame,
 ```
 
-### Luma (The Moon Spirit)
+### Shorts shot list
+
+**0:00–0:03 — HOOK**
 ```
-Tiny glowing moon sprite, translucent pearl skin, silver hair floating like liquid,
-star freckles, wears a tutu made of cloud wisps, size of a firefly, emits soft cyan bloom,
-3D volumetric character, ethereal, Arnold render
+Extreme close-up of Robi's wide right eye filling the upper half of the frame,
+pull back reveals him lying on green grass looking up, he sits up into center,
+points at cobalt-blue sky with fluffy clouds, surprised face.
 ```
 
-## Scene-by-Scene Prompts (for Sora / Runway / Kling)
-
-### Scene 1 — HOOK (0:00–0:08)
+**0:03–0:08 — QUESTION**
 ```
-Cinematic 3D cartoon. Extreme close-up of Mochi the marshmallow bunny's huge shiny eyes
-reflecting a glowing jar. Slow dolly out reveals him sitting in a dewy moonlit meadow,
-holding a glass jar with a tiny moon fragment bouncing inside. Fireflies orbit. Soft
-depth of field, Pixar lighting, 24fps, warm-cool color contrast, wonder and curiosity.
+Medium shot, Robi center-frame with a giant yellow 3D question mark hovering
+above his antenna, shrugs with both arms, tilts head, bold caption "KENAPA
+LANGIT BIRU?" in chunky yellow 3D text above his head.
 ```
 
-### Scene 2 — DISCOVERY (0:08–0:22)
+**0:08–0:12 — LIGHTBULB**
 ```
-3D animated cartoon, low angle, Mochi tiptoes through tall glowing mushrooms toward a
-crashed silver meteor in a forest clearing. The meteor cracks open, releasing Luma, a
-tiny glowing moon sprite. Whimsical, magical particles, cinematic Pixar style, soft
-subsurface scattering, gentle camera push-in.
-```
-
-### Scene 3 — BOND (0:22–0:40)
-```
-Top-down to eye-level arc shot, Mochi gently cups Luma in his paws. She giggles and
-tickles his nose. Rapid cuts: Mochi laughing, Luma drawing stars in the air with her
-finger, both spinning in a dandelion field. Warm magical glow, playful music beats,
-3D Pixar quality, shallow DOF, 90mm lens feel.
+Quick push-in on Robi, yellow lightbulb pops above his head with a sparkle
+burst, eyes go wide, arms shoot up, confetti of tiny yellow stars. Caption
+"AYO CARI TAHU!" in chunky yellow 3D text.
 ```
 
-### Scene 4 — CONFLICT (0:40–1:00)
+**0:12–0:18 — SHRINK + SURF**
 ```
-The sky begins to crack like glass, dark fractures spreading across the stars. Mochi
-looks up in horror, Luma fading to grey in his paws. Dutch angle, desaturated palette,
-dramatic lighting shift from warm to cold blue, emotional 3D cartoon, tears welling in
-Mochi's oversized eyes, cinematic.
-```
-
-### Scene 5 — CLIMB (1:00–1:18)
-```
-Mochi climbs an impossibly tall dandelion stem toward the broken sky, wind blowing his
-scarf. Dynamic spiral camera, parallax stars behind him, triumphant orchestral feel,
-3D animated, cloud layers, god rays, Pixar cinematography.
+Robi presses the yellow play-button on his chest, glow envelope, shrinks to
+bee-size, jumps onto a rainbow sunbeam ribbon made of 7 colored bouncy balls,
+surfs upward through the frame, laughing. Speed lines.
 ```
 
-### Scene 6 — RELEASE & RESOLUTION (1:18–1:30)
+**0:18–0:35 — THE EXPERIMENT (main teaching beat)**
 ```
-At the top, Mochi opens the jar. Luma bursts upward as a ribbon of silver light,
-stitching the cracked sky back together into a full glowing moon. Mochi smiles, single
-tear, scarf fluttering. Pull back to wide shot: tiny bunny silhouette against enormous
-moon. End card-ready composition, golden-hour-moon lighting, cinematic 3D.
+Floating platform inside the sky, 7 colored balls roll at a wall of tiny white
+molecules. Red, orange, yellow balls pass straight through. BLUE ball bounces
+wildly in all directions with exaggerated ricochets. Robi points excitedly.
+Big chunky yellow 3D text caption "BIRU MENYEBAR!" pops in with a sparkle.
 ```
 
-## Key-Frame Image Prompts (for thumbnail + storyboard)
+**0:35–0:45 — AHA**
+```
+Robi returns to normal size in the backyard, looks up, sky fills with scattered
+tiny blue sparkle particles visualizing the effect, he turns to camera, winks,
+pink cheek blush re-pops. Caption "LANGIT BIRU KARENA HAMBURAN" in smaller text.
+```
 
-1. `3D Pixar-style close-up, marshmallow bunny holding glowing moon-jar, huge reflective eyes, night meadow, bokeh fireflies, ultra cute, 8k`
-2. `Wide cinematic shot, tiny white bunny silhouette at top of giant dandelion against a cracked starry sky, magical, 3D render`
-3. `Thumbnail composition: bunny face left third, glowing jar right third, shocked-wonder expression, bold cyan-vs-peach color contrast, 16:9`
+**0:45–0:55 — RECAP**
+```
+Three floating icons orbit Robi center-frame: (1) a small sun, (2) rainbow
+stack of 7 balls, (3) sparkly blue sky. Chunky yellow 3D captions pop one at
+a time: "CAHAYA = 7 WARNA", "BIRU MENYEBAR", "LANGIT = BIRU".
+```
+
+**0:55–1:00 — CTA**
+```
+Robi center-frame on cobalt-blue brand backdrop, yellow SUBSCRIBE button with
+red bell pops beside him, he double-thumbs-up, winks, confetti burst, freeze
+frame on full title "KARTUN CERDAS — BELAJAR JADI SERU".
+```
+
+**On-screen captions style (burn-in for Shorts)**
+```
+Font: chunky rounded 3D sans (Fredoka One / Paytone One feel)
+Fill: yellow #FFC83D
+Outline: navy #0E2E6B, 6px
+Drop shadow: soft navy, 4px offset
+Per-word animation: pop-in with overshoot, 6-frame
+Position: upper-middle, never bottom 15% (Shorts UI blocks it)
+```
 
 ---
 
-# PROJECT 2 — 3D Sci-Fi Short Movie
+## 2. MERCH / STICKER / TOY PROMPT KIT
 
-**Working Title:** *"Signal from Kepler-9"*
-**Runtime:** 120 seconds
-**Style reference:** *Love Death + Robots* × *Blade Runner 2049* × *The Mandalorian* volume stage — photoreal 3D, volumetric light, practical-feel grime, anamorphic lens flares.
+Generate assets for future store listings, Patreon perks, and print-on-demand.
 
-## Logline
-The last human engineer aboard a dying deep-space relay station receives a signal that shouldn't exist — her own voice, transmitted from a planet 40 light-years away.
-
-## Character & Environment Sheet
-
-### Dr. Aria Venn (Hero)
+### Sticker sheet (for Telegram / WhatsApp / printable)
 ```
-Photoreal 3D character, 34-year-old astronaut engineer, short-cropped auburn hair,
-freckles, tired hazel eyes, wearing a worn grey-and-orange EVA undersuit with glowing
-status patches, realistic skin pores, subsurface scattering, cinematic lighting,
-Unreal Engine 5 MetaHuman quality, 8k
+Sticker pack sheet of Robi the chibi 3D robot mascot from Kartun Cerdas,
+16 die-cut stickers on white background: (1) waving hello, (2) winking thumbs
+up, (3) big shocked face, (4) laughing hard, (5) holding a lightbulb,
+(6) holding a book, (7) sleeping Zzz, (8) angry steam from head, (9) heart-
+eyes, (10) crying anime tears, (11) thinking with hand on chin, (12) flying
+with rocket backpack, (13) scientist goggles, (14) chef hat, (15) graduation
+cap, (16) confetti celebration. Pixar 3D, white outline around each sticker,
+saturated #1E5BD8 #FFC83D #F7FAFF palette, 4K.
 ```
 
-### Relay Station "Orpheus-7"
+### Plush toy product shot
 ```
-Decaying deep-space communications station, rotating torus habitat, exposed wiring,
-dim amber emergency lights, condensation on cold steel, scale references of
-human-sized corridors, volumetric dust, anamorphic lens flares, photoreal 3D,
-Blade Runner 2049 aesthetic, Unreal Engine 5
-```
-
-## Scene-by-Scene Prompts
-
-### Scene 1 — COLD OPEN HOOK (0:00–0:10)
-```
-Photoreal 3D cinematic. Black screen. A whisper of static, then a woman's voice:
-"...is anyone listening?" Hard cut to extreme close-up of Dr. Aria Venn's eye
-reflecting a red-blinking console. Anamorphic lens flare, shallow DOF, 2.39:1
-cinematic, deep space sci-fi, Denis Villeneuve lighting.
+Product photo of a plush toy version of Robi the chibi robot: soft fabric body
+in cloud-white and cobalt-blue, embroidered yellow antenna and headphones,
+felt yellow play-button chest patch, plastic safety eyes behind a printed black
+screen-face panel with winking expression, pink blush felt cheeks, friendly
+pose, on a clean white seamless backdrop, studio lighting, marketing shot,
+kids toy store aesthetic, 4K, hyperreal.
 ```
 
-### Scene 2 — STATION ESTABLISH (0:10–0:25)
+### Vinyl figure / blind-box
 ```
-Slow wide dolly through the silent corridor of Orpheus-7 relay station. Flickering
-amber lights, floating dust, a single astronaut silhouette at the far end of the
-hallway. Volumetric god rays from a viewport showing a swirling blue gas giant.
-Photoreal 3D, Unreal Engine 5, cinematic, 24fps, anamorphic.
-```
-
-### Scene 3 — THE SIGNAL (0:25–0:45)
-```
-Aria at the main console, holographic waveform pulsing cyan above her hands. The
-waveform resolves into her own face, 40 light-years away, mouthing words. Close-up
-of her shocked expression, reflection of hologram in her eyes. Tight framing,
-cinematic 3D, photoreal skin, dramatic key light from hologram.
+Designer vinyl figure of Robi the chibi robot, 3 inches tall, matte-finish
+blue-and-white body, glossy yellow accents, articulated arms, standing on a
+round cobalt-blue base with "KARTUN CERDAS" embossed logo, product photography
+on a soft gray seamless backdrop, soft key light + rim light, shallow depth
+of field, 4K.
 ```
 
-### Scene 4 — DESCENT INTO DOUBT (0:45–1:10)
+### T-shirt print
 ```
-Montage, fast cuts: Aria running diagnostics, pulling cables, checking her own
-reflection in a cracked visor, rewinding the transmission. Clock reads 03:47:22.
-Glitch effects on the hologram. Claustrophobic angles, handheld feel, cinematic
-sci-fi 3D, moody teal-orange palette.
-```
-
-### Scene 5 — REVELATION (1:10–1:35)
-```
-Aria opens a sealed compartment. Inside: a second cryo-pod. Through the frosted
-glass, another version of herself, eyes just opened. Slow push-in on the pod,
-condensation clearing. Her hand touches the glass. Photoreal 3D, horror-awe
-lighting, volumetric fog, ultra-detailed, Unreal Engine 5 MetaHuman.
+Kids t-shirt graphic, chest print, Robi the chibi robot winking and giving a
+double thumbs up, surrounded by yellow stars and a banner that reads "BELAJAR
+JADI SERU", chunky 3D style flattened for print, 5-color spot palette
+#1E5BD8 #FFC83D #F7FAFF #FF8FA3 #0E2E6B, mock-up on a blue kids tee.
 ```
 
-### Scene 6 — FINAL SHOT (1:35–2:00)
+### Coloring book page
 ```
-Pull back through the station viewport into deep space. The relay station is
-revealed to be one of hundreds, all broadcasting the same signal, scattered across
-a nebula. Camera keeps retreating until the nebula forms the shape of a vast
-watching eye. Fade to black. Epic scale, photoreal cosmic 3D, cinematic, ominous
-synth score.
+Black-and-white line-art coloring book page for kids, Robi the chibi robot
+standing in a backyard holding a giant question mark, fluffy clouds in sky,
+flowers on ground, thick outlines, no shading, printable 8.5x11, bottom
+caption "KARTUN CERDAS — WARNAI AKU!".
 ```
 
-## Key-Frame Image Prompts
-
-1. `Photoreal 3D astronaut woman, close-up, hologram of her own face reflected in her eye, cyan glow, dark cockpit, anamorphic flare, cinematic sci-fi, 8k, Unreal Engine 5`
-2. `Wide cinematic shot of decaying rotating space station interior, amber emergency lights, lone astronaut silhouette, volumetric dust, Blade Runner 2049 aesthetic, 2.39:1`
-3. `Thumbnail: half-face of astronaut lit by cyan hologram, half in shadow, text-safe negative space upper right, bold contrast, 16:9 YouTube thumbnail composition`
-4. `Epic cosmic pull-back shot, hundreds of tiny space stations arranged in a nebula shaped like a giant eye, photoreal, awe-inspiring scale, cinematic`
+### Birthday party backdrop
+```
+Kids birthday party backdrop banner, 6ft wide, horizontal layout: Robi the
+chibi robot on left giving thumbs up, giant chunky 3D logo "KARTUN CERDAS"
+center with "SELAMAT ULANG TAHUN!" underneath, confetti and yellow stars,
+cobalt-blue sky background with fluffy clouds, Pixar 3D style flattened,
+300dpi print ready.
+```
 
 ---
 
-## Production Pipeline Recommendation
+## 3. CHANNEL ART & END-SCREEN PROMPTS
 
-| Stage | Tool Suggestion |
-|---|---|
-| Key-frame art | Midjourney v6 or Flux 1.1 Pro (use image prompts above) |
-| Character turnaround | Leonardo 3D or Tripo3D from the key frames |
-| Video generation | Sora or Kling 1.6 Pro (paste scene prompts) |
-| Upscale / interpolate | Topaz Video AI (to 4K, 60fps optional) |
-| Music | Suno v4 — prompt: "cinematic orchestral, magical wonder" (cartoon) / "dark ambient synth, Vangelis, tension" (sci-fi) |
-| SFX | ElevenLabs Sound Effects |
-| Edit | DaVinci Resolve (free) |
-| Thumbnail | Photoshop + key-frame #3 from each project |
+### YouTube channel banner (2560x1440)
+```
+YouTube channel banner for "Kartun Cerdas", 2560x1440, safe zone in center
+1546x423 for all devices: Robi the chibi robot on the left waving and winking,
+chunky 3D logo "KARTUN CERDAS — BELAJAR JADI SERU" centered, small row of
+episode thumbnails floating to the right like cards (sky, rainbow, tooth,
+magnet, tree, moon), cobalt-blue sky background with clouds and yellow stars,
+Pixar 3D, bright saturated kid-friendly palette, marketing hero shot.
+```
+
+### YouTube profile picture (800x800 circular-safe)
+```
+Circular YouTube profile icon, centered composition: Robi the chibi robot's
+head and shoulders only, big winking face filling the circle, cobalt-blue
+background with a few yellow sparkles, Pixar 3D style, high contrast, readable
+at 48px small size.
+```
+
+### End-screen template (last 20s of each video)
+```
+YouTube end-screen overlay frame, 1920x1080, Robi the chibi robot on bottom-
+left giving a double thumbs up, cobalt-blue background with soft clouds, two
+video card placeholder rectangles on the right with rounded corners and
+yellow glow borders, a yellow SUBSCRIBE button with red bell in the center
+bottom, chunky 3D text "TONTON LAGI!" on top, last-frame freeze-ready.
+```
+
+### Thumbnail template (editable base for all episodes)
+```
+YouTube thumbnail template 1920x1080, 3-zone layout:
+- Left third: Robi the chibi robot with a big expressive face (expression
+  varies per episode: shocked, wondering, grinning, etc.)
+- Right two-thirds: space for a single chunky 3D Indonesian word in yellow
+  with navy outline and white bevel
+- Bottom-right corner: small Kartun Cerdas logo lockup
+Background: cobalt-blue gradient with subtle clouds and a few yellow sparkles.
+Contrast ratio 7:1, saturation high, readable at 200px small.
+```
 
 ---
 
-## Quick-Copy Master Prompts
+## 4. RECURRING CHARACTERS
 
-### Cartoon master prompt (single-shot fallback)
+### NINA — curious girl sidekick (introduced in long-form pilot)
 ```
-90-second 3D Pixar-style animated short. Tiny marshmallow bunny named Mochi finds a
-jar containing a fragment of the moon, befriends a glowing moon sprite, and when the
-night sky begins to crack, climbs a giant dandelion to release her and mend the stars.
-Warm cinematic lighting, oversized eyes, plush fur, magical particles, emotional
-orchestral score, Pixar × Laika aesthetic, 8k.
+Chibi 3D cartoon girl character named Nina, 5 years old, 1.5:1 head-to-body
+ratio, light-brown skin, round friendly face with big dark eyes and long
+eyelashes, rosy cheeks, small button nose, happy smile, shoulder-length dark
+brown hair in two pigtails tied with yellow ribbons, wearing a cobalt-blue
+dungaree dress over a white tee with a small yellow star embroidered on chest,
+white sneakers with blue soles. Same Pixar-quality 3D style as Robi, same
+Kartun Cerdas palette #1E5BD8 #FFC83D #F7FAFF #FF8FA3, adorable, expressive,
+child-safe, 8K octane render.
 ```
 
-### Sci-fi master prompt (single-shot fallback)
+### Expression sheet (Nina)
 ```
-120-second photoreal 3D sci-fi short. Lone female astronaut aboard a decaying deep-
-space relay station receives a transmission containing her own voice from 40 light-
-years away. Investigation reveals a second cryo-pod holding a duplicate of herself.
-Final reveal: hundreds of identical stations form a nebula shaped like a watching eye.
-Blade Runner 2049 aesthetic, anamorphic, teal-orange, Unreal Engine 5 MetaHuman,
-cinematic 2.39:1.
+Expression sheet for Nina the chibi 3D girl, 3x3 grid on pale-blue backdrop:
+neutral smile, wide-eyed wonder, curious tilt, belly laugh, thinking finger
+to chin, pouty confused, cheering arms up, sleepy, surprised "oh!". Consistent
+style with Robi, 8K.
 ```
+
+### SUGAR MONSTERS (Episode 5)
+```
+Cartoon sugar-monster characters, purple-and-pink fluffy chibi blobs with tiny
+arms and legs, two small eyes, cute mischievous smiles showing tiny fangs,
+wearing candy-crown accessories, child-friendly villains (not scary), bouncy
+squash-and-stretch movement, Pixar style, on a white background for model sheet.
+```
+
+### MOLECULE CHARACTERS (Episode 2, 1, 6)
+```
+Cartoon water-molecule characters: one red-orange "oxygen" round buddy + two
+white "hydrogen" smaller buddies linked with friendly arms, all with big eyes
+and smiles. And a version with frowning frozen ice-pose (arms locked),
+vs dancing liquid-pose (arms free). Pixar chibi, Kartun Cerdas palette, model
+sheet on white background, 8K.
+```
+
+### NOSE-HAIR GUARDS (Episode 10)
+```
+Cartoon nose-hair guard characters, tiny soldier-style chibi bodies made of
+dark brown hair-like fibers with cute eyes and a small red whistle around the
+neck, saluting pose, friendly and heroic not scary, Pixar 3D chibi style on
+white background.
+```
+
+---
+
+## 5. REUSABLE ENVIRONMENT PACKS
+
+### Robi's Backyard (hero home set)
+```
+Stylized 3D cartoon backyard environment for kids show, gently rolling grass
+yard, cute low-poly flowers (red, yellow, pink), a small wooden picket fence,
+one friendly cartoon tree with round foliage, a blue sky with fluffy white
+clouds, golden sunrays, friendly sunshine mood, Pixar quality, consistent
+with Robi's style, optimized for character placement with a clean stage area
+in the middle foreground, 16:9 wide establishing shot + 9:16 vertical variant.
+```
+
+### Robi's Lab (for experiments)
+```
+Stylized 3D cartoon kids-science laboratory, clean white walls with rounded
+corners, shelves of colorful bottles and test tubes, a big floating crystal
+prism in the center, a chalkboard, a telescope, a yellow power-button switch
+on the wall, cobalt-blue and yellow accents, bright friendly lighting, Pixar
+quality, optimized for character placement.
+```
+
+### Sky Platform (for Episode 1 demonstration)
+```
+Floating stylized sky platform inside Earth's atmosphere, translucent cloud-
+like floor, surrounded by fluffy clouds at varied heights, seven large colored
+bouncy balls floating ready to roll, a wall of tiny white molecule particles,
+soft volumetric god rays, cobalt-blue sky background, magical and dreamy,
+Pixar quality.
+```
+
+### Space Orbit (for Episode 8)
+```
+Stylized kids-cartoon view of Earth from low orbit, cute cartoon Earth globe
+with rounded continents (Indonesia visible and highlighted), fluffy white
+clouds, gentle starfield background, soft glowing sun on the left, friendly
+and non-scary cosmos, Pixar quality, optimized for character placement.
+```
+
+### Beach (for Episode 9)
+```
+Stylized kids-cartoon tropical beach, soft sand with cute shell decorations,
+gentle lapping waves, palm trees, cobalt-blue sky with one fluffy cloud, a
+small wooden signpost, bright friendly sunny mood, Pixar quality.
+```
+
+### Forest Path (for Episode 7)
+```
+Stylized kids-cartoon forest path, soft dirt path with small flowers, tall
+friendly trees with round cartoon foliage, sunbeams piercing through leaves,
+little butterflies and ladybugs, cobalt-blue sky peeking through the canopy,
+warm welcoming mood, Pixar quality.
+```
+
+### Bedroom (for Episode 4)
+```
+Stylized kids-cartoon cozy bedroom, small wooden bed with a blue-and-yellow
+star-pattern quilt, a round window with the moon visible outside, a bookshelf
+with cute books, a soft rug, a table lamp glowing warm yellow, Kartun Cerdas
+color accents, Pixar quality.
+```
+
+---
+
+## 6. Production Notes
+
+- Use the **character sheets** (Robi + Nina + villains) as **Midjourney
+  `--cref` / Kling character references** so every episode keeps style lock.
+- Generate each **environment once, re-render with camera variations** —
+  saves 60% of AI-video credits.
+- Save every seed / reference image in a shared drive folder:
+  `/KartunCerdas/assets/characters`, `/environments`, `/props`.
+- Before production of Episode 1, lock the **5-second intro bumper** as a
+  finished MP4 and simply pre-roll it on every future video.
