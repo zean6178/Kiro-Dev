@@ -1,0 +1,31 @@
+project,scene,shot,timecode_in,timecode_out,duration_sec,shot_size,camera_move,lens_mm,aperture,fps,subject,action,lighting,color_palette,sfx,music_cue,notes
+Mochi,1,1A,00:00:00,00:00:03,3,ECU,static hold,100,f2.0,24,Mochi eye,reflection of glowing jar,soft moon key + firefly rim,cream + cyan,ambient wind + firefly chime,Cue1 Moonlight Whisper,hook frame - must show motion in reflection
+Mochi,1,1B,00:00:03,00:00:08,5,MCU,slow dolly out,50,f2.8,24,Mochi holding jar,sitting in meadow,overhead moon + warm firefly fill,cream + cyan + peach,grass rustle,Cue1 Moonlight Whisper,reveal hero and stakes object
+Mochi,2,2A,00:00:08,00:00:14,6,WS,low tracking,24,f4.0,24,Mochi tiptoe,walking through glowing mushrooms,bioluminescent ground + moon key,teal + peach,tiny footsteps + mushroom chime,Cue1 Moonlight Whisper,establish magic world
+Mochi,2,2B,00:00:14,00:00:22,8,MS,push-in,35,f2.8,24,silver meteor,cracking open revealing Luma,hard moon rim + internal glow burst,silver + cyan,meteor hiss + magical burst,Cue1 Moonlight Whisper,discovery beat
+Mochi,3,3A,00:00:22,00:00:28,6,CU,arc 90 degrees,50,f2.0,24,Mochi cupped paws,Luma tickles his nose,Luma self-glow as key,white + peach,giggle + twinkle,Cue2 Tiny Giggles,emotional bond beat
+Mochi,3,3B,00:00:28,00:00:36,8,MS,handheld playful,35,f2.8,24,Mochi and Luma,spinning in dandelion field,golden magic hour,gold + cream,laughter + dandelion whoosh,Cue2 Tiny Giggles,retention beat - energy peak
+Mochi,3,3C,00:00:36,00:00:45,9,WS,crane up,24,f4.0,24,dandelion field,both characters tiny in wide field,god rays through dandelion fluff,gold + peach,wind swell,Cue2 Tiny Giggles,breath-and-beauty shot
+Mochi,4,4A,00:00:45,00:00:52,7,MS,dutch angle static,50,f2.0,24,Mochi looks up,sky fractures into glass cracks,cold blue key from above,desaturated blue + grey,glass crack sfx (huge),Cue3 The Sky Breaks,turning point
+Mochi,4,4B,00:00:52,00:01:00,8,ECU,slow push,100,f1.8,24,Mochi eye,tear forming Luma fading grey,cold blue only,grey + blue,soft music box breaking,Cue3 The Sky Breaks,emotional core - thumbnail candidate
+Mochi,5,5A,00:01:00,00:01:09,9,WS,spiral up tracking,18,f4.0,24,Mochi climbing,up giant dandelion stem,moonlight + star parallax,silver + black,wind howl + scarf flutter,Cue4 The Climb,action momentum
+Mochi,5,5B,00:01:09,00:01:18,9,LS,vertical whip pan,24,f4.0,24,Mochi at top,reaching toward cracked sky,god rays from broken moon,silver + cyan,wind + distant orchestral swell,Cue4 The Climb,climax lead-in
+Mochi,6,6A,00:01:18,00:01:24,6,MCU,static,85,f2.0,24,Mochi opens jar,Luma bursts as silver ribbon,Luma-flare fills frame,silver + white bloom,magical burst + harmonic chime,Cue5 Goodnight Little Moon,payoff
+Mochi,6,6B,00:01:24,00:01:30,6,EWS,slow pull back,14,f5.6,24,Mochi silhouette,tiny against full restored moon,rim moon light,silver + black,wind fade + final chime,Cue5 Goodnight Little Moon,end frame + subscribe CTA safe zone
+Kepler,1,1A,00:00:00,00:00:04,4,BLACK,none,n/a,n/a,24,black screen,static hiss + whisper voice,none,black,radio static + whisper,Cue1 Transmission,cold open - earn the darkness
+Kepler,1,1B,00:00:04,00:00:10,6,ECU,static,100,f1.4,24,Aria eye,reflects red blinking console,hard red key from screen,teal + red,console beep + breath,Cue1 Transmission,hook frame - anamorphic flare
+Kepler,2,2A,00:00:10,00:00:18,8,WS,slow dolly forward,21,f2.8,24,corridor of Orpheus-7,dust particles floating,amber emergency practicals,teal + amber,hum + coolant drip,Cue2 Orpheus-7,scale establish
+Kepler,2,2B,00:00:18,00:00:25,7,MS,tracking behind,35,f2.0,24,Aria walking,silhouette toward viewport,backlit by gas giant,teal + orange,footsteps on grating,Cue2 Orpheus-7,character reveal
+Kepler,3,3A,00:00:25,00:00:32,7,MCU,push in,50,f2.0,24,Aria at console,hologram ignites,cyan hologram key,teal + cyan,hologram boot sfx,Cue3 The Signal,mystery escalates
+Kepler,3,3B,00:00:32,00:00:40,8,ECU,static,85,f1.8,24,Aria eye,sees her own face in hologram,cyan hologram reflection,cyan + teal,digital voice echo,Cue3 The Signal,revelation beat
+Kepler,3,3C,00:00:40,00:00:45,5,OTS,handheld micro,35,f2.0,24,Aria over shoulder,faces the hologram,cyan key + red rim,cyan + red,waveform glitch,Cue3 The Signal,confrontation framing
+Kepler,4,4A,00:00:45,00:00:52,7,INSERT,rack focus,100,f2.8,24,hands on console,running diagnostics,practicals close,teal + orange,keypad clicks,Cue4 Unraveling,montage rhythm
+Kepler,4,4B,00:00:52,00:00:58,6,CU,handheld,50,f2.0,24,Aria in cracked visor,reflection doubled,cold rim,teal + silver,glass creak,Cue4 Unraveling,visual metaphor for duplicate
+Kepler,4,4C,00:00:58,00:01:05,7,INSERT,static,100,f2.8,24,clock reads 03:47:22,digits glitching,red console glow,red + black,glitch stabs,Cue4 Unraveling,time-dilation cue
+Kepler,4,4D,00:01:05,00:01:10,5,MS,whip pan,35,f2.8,24,Aria,rewinding transmission frantically,strobing console,teal + red + cyan,rewind whoosh,Cue4 Unraveling,escalation cut
+Kepler,5,5A,00:01:10,00:01:20,10,MS,slow push,50,f2.0,24,sealed compartment,hand opens hatch,single top light,teal + amber,hatch hiss + servo,Cue5 The Other,suspense build
+Kepler,5,5B,00:01:20,00:01:30,10,MCU,rack focus,85,f2.0,24,cryo-pod glass,duplicate Aria eyes open,internal pod glow cyan,cyan + flesh,condensation drip + heartbeat,Cue5 The Other,reveal - thumbnail candidate
+Kepler,5,5C,00:01:30,00:01:35,5,ECU,static,100,f1.4,24,two hands touching,through glass,cold cyan rim,cyan + pink flesh,glass tap,Cue5 The Other,emotional contact
+Kepler,6,6A,00:01:35,00:01:45,10,EWS,slow pull back,14,f5.6,24,station from outside,drifting away through viewport,star field + nebula,teal + magenta,sub rumble,Cue6 We Are Legion,scale shift
+Kepler,6,6B,00:01:45,00:01:55,10,EWS,continued pull back,vfx,n/a,24,hundreds of identical stations,arranged across nebula,nebula self-light,magenta + cyan,cosmic drone swell,Cue6 We Are Legion,scale reveal
+Kepler,6,6C,00:01:55,00:02:00,5,EWS,final reveal,vfx,n/a,24,nebula shaped as watching eye,slow blink,cosmic rim,magenta + cyan + black,choir swell then silence,Cue6 We Are Legion,closing image - end card safe
