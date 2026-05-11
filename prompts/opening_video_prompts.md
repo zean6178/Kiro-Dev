@@ -334,16 +334,14 @@ joyful ukulele + glockenspiel sting with whoosh-thud-ding SFX.
 
 ---
 
-### Next deliverables in the plan (as you requested "i want all of these")
+### Related files (all shipped)
 
-You asked for everything from my previous message. Here's the ordered queue —
-tell me to proceed and I'll generate each file:
+| Deliverable | File |
+|---|---|
+| Full shot list CSV, 10 episodes × 8 scenes | [`shot_list.csv`](./shot_list.csv) |
+| Bahasa Indonesia VO (10 eps) + 5-min long-form pilot | [`voiceover_scripts.md`](./voiceover_scripts.md) |
+| Suno 60s channel anthem + per-episode beds | [`suno_music_prompts.md`](./suno_music_prompts.md) |
+| Merch / sticker / channel art / side-character prompts | [`3d_animation_prompts.md`](./3d_animation_prompts.md) |
+| Shorts 9:16 reframe of pilot, scene-by-scene | [`3d_animation_prompts.md §1`](./3d_animation_prompts.md) |
 
-1. ✅ **THIS FILE** — Opening/intro video prompts (done)
-2. ⏭️ Full shot list CSV for all 10 calendar episodes
-3. ⏭️ Expanded 5–7 minute long-form pilot script + prompts
-4. ⏭️ Suno theme song prompt (full 60s channel anthem)
-5. ⏭️ Merch/sticker prompt pack for Robi
-6. ⏭️ Shorts 9:16 reframes of the pilot, scene by scene
-
-Say "lanjut" or "next" and I'll keep going down the list.
+For the full production flow, see [`README.md`](./README.md).
