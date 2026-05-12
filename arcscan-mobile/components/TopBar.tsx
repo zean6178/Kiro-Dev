@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { ChevronLeft, Wifi, WifiOff } from "lucide-react";
+import { ChevronLeft, Box } from "lucide-react";
 import { useBlockNumber } from "@/lib/hooks";
 
 const TITLES: Record<string, string> = {
@@ -70,4 +70,4 @@ export default function TopBar() {
   );
 }
 
-import { Box } from "lucide-react";
+

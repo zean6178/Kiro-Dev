@@ -33,7 +33,7 @@ export function formatTs(ts: bigint | number): string {
   });
 }
 
-export function txType(tx: { to: string | null; input: string }): "deploy" | "contract" | "transfer" {
+export function txType(tx: { to: string | null; input: `0x${string}` | string }): "deploy" | "contract" | "transfer" {
   if (!tx.to) return "deploy";
   if (tx.input && tx.input.length > 2) return "contract";
   return "transfer";

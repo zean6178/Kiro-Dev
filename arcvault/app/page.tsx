@@ -1,6 +1,6 @@
 "use client";
 
-import { useAccount, useBalance, useReadContract, useSendTransaction, useWaitForTransactionReceipt } from "wagmi";
+import { useAccount, useReadContract, useWaitForTransactionReceipt } from "wagmi";
 import { parseUnits, isAddress } from "viem";
 import { useState, useCallback } from "react";
 import { Card, SkeletonCard } from "@/components/Card";

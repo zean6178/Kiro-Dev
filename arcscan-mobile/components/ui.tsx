@@ -1,4 +1,5 @@
 "use client";
+import React, { useState } from "react";
 import { cn, txTypeColor, txTypeBg } from "@/lib/utils";
 
 /* ── Card ── */
@@ -101,7 +102,7 @@ export function Empty({ label = "No data" }: { label?: string }) {
 
 /* ── Copy button ── */
 export function CopyBtn({ text }: { text: string }) {
-  const [copied, setCopied] = React.useState(false);
+  const [copied, setCopied] = useState(false);
   const copy = () => {
     navigator.clipboard.writeText(text);
     setCopied(true);
@@ -115,4 +116,4 @@ export function CopyBtn({ text }: { text: string }) {
   );
 }
 
-import React from "react";
+

@@ -177,7 +177,7 @@ export default function HomePage() {
           { label: "RPC",       value: "rpc.testnet.arc.network" },
           { label: "Explorer",  value: "testnet.arcscan.net" },
           { label: "Consensus", value: "Malachite BFT (PoA)" },
-          { label: "Native gas","value": "USDC (6 decimals)" },
+          { label: "Native gas", value: "USDC (6 decimals)" },
         ].map(({ label, value }) => (
           <div key={label} className="flex justify-between py-2" style={{ borderBottom: "1px solid var(--border)" }}>
             <span className="text-xs" style={{ color: "var(--text-2)" }}>{label}</span>

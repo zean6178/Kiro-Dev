@@ -8,7 +8,7 @@ import { arcTestnet, EXPLORER_URL, FAUCET_URL, RPC_URL } from "@/lib/arc-chain";
 import { shortAddress, formatTimestamp, explorerTx, explorerAddress } from "@/lib/utils";
 import {
   Activity, ExternalLink, RefreshCw, Droplets,
-  Box, Clock, Hash, ArrowRight, Wifi, WifiOff, Loader2,
+  Box, Hash, ArrowRight, Wifi, WifiOff,
 } from "lucide-react";
 
 interface TxInfo {

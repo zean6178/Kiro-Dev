@@ -2,6 +2,7 @@
 
 import { useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 import { Search, ArrowRight, Box, Zap, Wallet, AlertCircle } from "lucide-react";
 import { isHash, isAddress, isBlock } from "@/lib/utils";
 import { Card } from "@/components/ui";
@@ -23,8 +24,8 @@ const EXAMPLES = [
 ];
 
 const QUICK_LINKS = [
-  { label: "Latest Blocks", href: "/blocks",  icon: Box,            color: "var(--teal)"   },
-  { label: "Transactions",  href: "/txs",     icon: Zap,            color: "var(--purple)" },
+  { label: "Latest Blocks", href: "/blocks",  icon: Box,            color: "var(--teal)",   external: false },
+  { label: "Transactions",  href: "/txs",     icon: Zap,            color: "var(--purple)", external: false },
   { label: "Circle Faucet", href: "https://faucet.circle.com", icon: ArrowRight, color: "var(--green)", external: true },
   { label: "Arc Docs",      href: "https://docs.arc.network",  icon: ArrowRight, color: "var(--amber)", external: true },
 ];
@@ -145,13 +146,13 @@ export default function SearchPage() {
                 <p className="text-xs font-semibold">{label}</p>
               </a>
             ) : (
-              <a key={label} href={href}
+              <Link key={label} href={href}
                  className="card-sm p-3 flex items-center gap-2 active:scale-95 transition-transform">
                 <div className="w-8 h-8 rounded-xl flex items-center justify-center" style={{ background: `${color}15` }}>
                   <Icon size={15} color={color} />
                 </div>
                 <p className="text-xs font-semibold">{label}</p>
-              </a>
+              </Link>
             )
           ))}
         </div>

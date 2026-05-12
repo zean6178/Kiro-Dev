@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, Box, ArrowLeftRight, Search, Compass } from "lucide-react";
+import { Home, Box, ArrowLeftRight, Search } from "lucide-react";
 
 const NAV = [
   { href: "/",       icon: Home,            label: "Home"    },

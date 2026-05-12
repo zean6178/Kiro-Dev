@@ -2,15 +2,15 @@
 
 import { useState, useCallback } from "react";
 import { useAccount, useWriteContract, useWaitForTransactionReceipt } from "wagmi";
-import { isAddress, encodeDeployData, parseAbi } from "viem";
-import { Card, SkeletonCard } from "@/components/Card";
+import { isAddress } from "viem";
+import { Card } from "@/components/Card";
 import { Badge } from "@/components/Badge";
 import { arcTestnet } from "@/lib/arc-chain";
 import { ERC721_ABI } from "@/lib/erc721-abi";
 import { shortAddress, explorerTx } from "@/lib/utils";
 import {
   Sparkles, ExternalLink, Loader2, CheckCircle, AlertCircle,
-  Image as ImageIcon, Tag, Zap, Plus, Search, Filter,
+  Image as ImageIcon, Zap, Plus, Search,
 } from "lucide-react";
 
 /* ─── Mock NFT data (testnet display) ──────────────────── */

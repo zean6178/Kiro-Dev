@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useRecentBlocks } from "@/lib/hooks";
-import { Card, Sk, Empty, SectionTitle } from "@/components/ui";
+import { Card, Sk, Empty } from "@/components/ui";
 import { Box, ChevronRight, RefreshCw, Clock } from "lucide-react";
 import { shortHash, timeAgo, formatTs } from "@/lib/utils";
 import type { Block } from "viem";
